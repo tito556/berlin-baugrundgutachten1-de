@@ -1,0 +1,62 @@
+# Berlin
+
+> Geotechnical engineering company in Germany, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Aktive Passive Verankerungsbemessung](https://berlin.baugrundgutachten1.de/aktive-passive-verankerungsbemessung/)
+- [Analyse Seismischen Verstarkung](https://berlin.baugrundgutachten1.de/analyse-seismischen-verstarkung/)
+- [Analyse Ungesattigter Boden](https://berlin.baugrundgutachten1.de/analyse-ungesattigter-boden/)
+- [Atterberg Grenzen](https://berlin.baugrundgutachten1.de/atterberg-grenzen/)
+- [Bemessung Flexibler Fahrbahnen](https://berlin.baugrundgutachten1.de/bemessung-flexibler-fahrbahnen/)
+- [Bemessung Geozellen](https://berlin.baugrundgutachten1.de/bemessung-geozellen/)
+- [Bemessung Rammpfahlen](https://berlin.baugrundgutachten1.de/bemessung-rammpfahlen/)
+- [Bemessung Rutteldruckverdichtung](https://berlin.baugrundgutachten1.de/bemessung-rutteldruckverdichtung/)
+- [Bemessung Starrer Fahrbahnen](https://berlin.baugrundgutachten1.de/bemessung-starrer-fahrbahnen/)
+- [Bemessung Vorbelastung Auflast](https://berlin.baugrundgutachten1.de/bemessung-vorbelastung-auflast/)
+- [Berechnung Des Sicherheitsfaktors](https://berlin.baugrundgutachten1.de/berechnung-des-sicherheitsfaktors/)
+- [Bewertung Setzungsempfindlichen Boden](https://berlin.baugrundgutachten1.de/bewertung-setzungsempfindlichen-boden/)
+- [Bodenerosionsanalyse](https://berlin.baugrundgutachten1.de/bodenerosionsanalyse/)
+- [Bodenklassifikation](https://berlin.baugrundgutachten1.de/bodenklassifikation/)
+- [Bodenmechanische Untersuchung](https://berlin.baugrundgutachten1.de/bodenmechanische-untersuchung/)
+- [Bodenverbesserung](https://berlin.baugrundgutachten1.de/bodenverbesserung/)
+- [Boschungsbruchanalyse](https://berlin.baugrundgutachten1.de/boschungsbruchanalyse/)
+- [Boschungsstabilitatsanalyse](https://berlin.baugrundgutachten1.de/boschungsstabilitatsanalyse/)
+- [Cbr Studie Fur Straßenentwurf](https://berlin.baugrundgutachten1.de/cbr-studie-fur-straßenentwurf/)
+- [Charakterisierung Residualboden](https://berlin.baugrundgutachten1.de/charakterisierung-residualboden/)
+- [Cone Penetration Test](https://berlin.baugrundgutachten1.de/cone-penetration-test/)
+- [Direkter Scherversuch](https://berlin.baugrundgutachten1.de/direkter-scherversuch/)
+- [Elektrische Widerstandsmessung Ves](https://berlin.baugrundgutachten1.de/elektrische-widerstandsmessung-ves/)
+- [Erdbebenisolationsbemessung](https://berlin.baugrundgutachten1.de/erdbebenisolationsbemessung/)
+- [Erdbebensichere Grundungsbemessung](https://berlin.baugrundgutachten1.de/erdbebensichere-grundungsbemessung/)
+- [Erkundung](https://berlin.baugrundgutachten1.de/erkundung/)
+- [Fahrbahnbau Untergrundbemessung](https://berlin.baugrundgutachten1.de/fahrbahnbau-untergrundbemessung/)
+- [Felddurchlassigkeitsversuch](https://berlin.baugrundgutachten1.de/felddurchlassigkeitsversuch/)
+- [Flachdilatometer Versuch](https://berlin.baugrundgutachten1.de/flachdilatometer-versuch/)
+- [Flachgrundungsbemessung](https://berlin.baugrundgutachten1.de/flachgrundungsbemessung/)
+- [Fundamente](https://berlin.baugrundgutachten1.de/fundamente/)
+- [Geogitter Spezifikation](https://berlin.baugrundgutachten1.de/geogitter-spezifikation/)
+- [Geomembran Spezifikation](https://berlin.baugrundgutachten1.de/geomembran-spezifikation/)
+- [Geophysik](https://berlin.baugrundgutachten1.de/geophysik/)
+- [Geotechnik Deponien](https://berlin.baugrundgutachten1.de/geotechnik-deponien/)
+- [Geotechnische Analyse Fur Tunnel](https://berlin.baugrundgutachten1.de/geotechnische-analyse-fur-tunnel/)
+- [Geotechnische Bemessung Tiefer Baugruben](https://berlin.baugrundgutachten1.de/geotechnische-bemessung-tiefer-baugruben/)
+- [Geotechnische Entwasserungsbemessung](https://berlin.baugrundgutachten1.de/geotechnische-entwasserungsbemessung/)
+- [Geotechnische Instrumentierung](https://berlin.baugrundgutachten1.de/geotechnische-instrumentierung/)
+- [Geotechnische Straßenentwasserung](https://berlin.baugrundgutachten1.de/geotechnische-straßenentwasserung/)
+- [Geotextil Spezifikation](https://berlin.baugrundgutachten1.de/geotextil-spezifikation/)
+- [Ground Penetrating Radar](https://berlin.baugrundgutachten1.de/ground-penetrating-radar/)
+- [Hange Amp Wande](https://berlin.baugrundgutachten1.de/hange-amp-wande/)
+- [In Situ Prufungen](https://berlin.baugrundgutachten1.de/in-situ-prufungen/)
+- [Injektionsbemessung](https://berlin.baugrundgutachten1.de/injektionsbemessung/)
+- [Jet Grouting Bemessung](https://berlin.baugrundgutachten1.de/jet-grouting-bemessung/)
+- [Labor](https://berlin.baugrundgutachten1.de/labor/)
+- [Labor Cbr Versuch](https://berlin.baugrundgutachten1.de/labor-cbr-versuch/)
+- [Labor Durchlassigkeitsversuch](https://berlin.baugrundgutachten1.de/labor-durchlassigkeitsversuch/)
+- [Mechanisch Stabilisierter Erdkorper](https://berlin.baugrundgutachten1.de/mechanisch-stabilisierter-erdkorper/)
+
+## Contact
+- Website: https://berlin.baugrundgutachten1.de/
+
+## About
+This page provides information about geotechnical engineering services available in Germany.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.

@@ -1,0 +1,20 @@
+{
+  "name": "Berlin",
+  "short_name": "Berlin",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0A2540",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "de",
+  "orientation": "portrait-secondary",
+  "scope": "/",
+  "description": "Professionelle geotechnische Dienstleistungen in Berlin, Germany. Bodenstudien, Prüfungen und technische Beratung.",
+  "id": "/berlin-0429"
+}
