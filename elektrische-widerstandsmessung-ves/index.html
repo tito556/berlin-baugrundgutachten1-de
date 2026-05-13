@@ -122,6 +122,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <div class="topbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -166,7 +202,7 @@ header.hero, .hero { position: relative !important; }
 </div></div></div></section>
 <section class="block"><div class="container"><h2>Methodik und Umfang</h2><div>Die Anforderungen in Berlin-Mitte unterscheiden sich deutlich von denen in Marzahn. Während in der Innenstadt oft anthropogene Auffüllungen mit wechselnden Widerständen auftreten, dominieren in den Außenbezirken glaziale Sande und Kiese. Die elektrische Widerstandsmessung erfasst diese Unterschiede präzise. Typische Parameter einer VES-Messung umfassen:<ul><li>Elektrodenkonfiguration nach Wenner oder Schlumberger</li><li>Eindringtiefe bis 50 Meter</li><li>Messung des scheinbaren spezifischen Widerstands (Ohmmeter)</li><li>Inversion mittels Software (z. B. Res2DInv)</li><li>Darstellung als Pseudo-2D-Tomogramm</li></ul>Für eine vollständige Baugrundbeurteilung empfehlen wir ergänzend einen ensayo-spt zur direkten Widerstandsermittlung und eine capacidad-de-carga zur Tragfähigkeitsberechnung. Die VES ist besonders wertvoll, wenn Bohrungen nicht möglich sind – etwa in Naturschutzgebieten oder auf versiegelten Flächen.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technische Referenz — Berlin</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Lokale Besonderheiten</h2><p>In Berlin sehen wir oft, dass auf ehemaligen Rieselfeldern oder Schuttablagerungen die elektrischen Widerstände stark variieren. Wer hier auf eine VES verzichtet, riskiert spätere Überraschungen: unerkannte Hohlräume, organische Weichschichten oder kontaminierte Zonen können zu Setzungen, Grundwasserschäden oder aufwändigen Nachbesserungen führen. Besonders kritisch ist der Bereich um den ehemaligen Flughafen Tempelhof, wo Auffüllungen aus Bauschutt mit natürlichen Sanden wechseln. Eine gezielte elektrische Widerstandsmessung reduziert diese Risiken deutlich und liefert Planungssicherheit für Gründungen, Leitungsbau oder Sanierungsmaßnahmen.</p></div></section><section class="block"><div class="container"><h2>Geltende Normen</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
-<p>DIN 4020 (Geotechnische Untersuchungen für bautechnische Zwecke), DIN 50929 (Korrosionswahrscheinlichkeit – Erdreich), DIN EN 1997-2 (Eurocode 7 – Erkundung und Prüfung)</p></div></section>
+<p>DIN 4020 (Geotechnische Untersuchungen für bautechnische Zwecke), DIN 50929 (Korrosionswahrscheinlichkeit – Erdreich), DIN EN 1997-2 (Eurocode 7 – <a href="/erkundung/">Erkundung</a> und Prüfung)</p></div></section>
 <section class="block tint"><div class="container"><h2>Technische Parameter</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #A78BFA;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#A78BFA;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typischer Wert</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Elektrodenanordnung</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Wenner (α), Schlumberger, Dipol-Dipol</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Eindringtiefe</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">5 m bis 50 m (abhängig von Elektrodenabstand)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Gemessene Größe</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Scheinbarer spezifischer Widerstand (Ω·m)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Inversionsmethode</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Robuste Inversion (L1-Norm) / Smoothness-constrained</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Datenausgabe</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Pseudo-2D-Tomogramm, Schichtmodelle</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Einsatzbereiche</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Altlasten, Grundwasser, Baugrund, Archäologie</td></tr></tbody></table></div></div></section>
 <section class="block"><div class="container"><h2>Häufige Fragen</h2>
 <hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">

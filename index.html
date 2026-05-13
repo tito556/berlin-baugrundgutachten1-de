@@ -118,6 +118,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#0A2540) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head><body>
 <div class="topbar">
 <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'.\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -230,7 +266,7 @@ Eine besondere Herausforderung stellen die sogenannten „Berliner Taschen“ da
 </div>
 </div>
 </section><section class="block"><div class="container"><h2>Warum uns wählen</h2><p>Unsere Berliner Niederlassung verfügt über eine konsolidierte regionale Erfahrung, die auf jahrelanger Zusammenarbeit mit lokalen Bauunternehmen, Prüfingenieuren und Behörden wie der Senatsverwaltung für Stadtentwicklung und Wohnen beruht. Wir setzen ausschließlich kalibrierte Geräte ein und führen unsere Laborversuche nach DIN-Norm durch. Durch die enge Abstimmung mit den zuständigen Bauämtern und die Kenntnis der Berliner Baugrundkartei gewährleisten wir eine reibungslose Genehmigung Ihrer Projekte. Unser Ziel ist es, wirtschaftliche und sichere Gründungslösungen zu entwickeln, die auf den spezifischen Berliner Bodenverhältnissen basieren.</p></div></section>
-<section class="block"><div class="container"><h2>Häufige Fragen</h2><details><summary>Wie tief muss in Berlin in der Regel der Baugrund erkundet werden?</summary><p>Die Erkundungstiefe richtet sich nach der geplanten Bauwerkslast und der Baugrundstruktur. In Berlin ist oft eine Tiefe von mindestens 10 bis 15 Metern unter Geländeoberkante erforderlich, um die tragfähigen Sande oder Geschiebemergel zu erreichen. Bei weichen Schichten oder hohen Lasten kann eine tiefere Erkundung nötig sein, insbesondere in den Bereichen der Berliner Taschen. Wir empfehlen eine an die örtlichen Gegebenheiten angepasste Bohrstrategie.</p></details><details><summary>Welche Rolle spielt das Grundwasser bei Bauvorhaben in Berlin?</summary><p>Das Grundwasser in Berlin steht meist hoch an, oft nur 2 bis 4 Meter unter Gelände. Dies erfordert bei tieferen Baugruben eine aufwendige Wasserhaltung oder eine Abdichtung der Baugrube. Zudem kann es bei Grundwasserabsenkungen zu Setzungen benachbarter Gebäude kommen. Daher ist eine genaue hydrogeologische Bewertung und gegebenenfalls eine wasserrechtliche Genehmigung erforderlich. Wir berücksichtigen diese Aspekte in unserer Planung.</p></details><details><summary>Welche Normen sind für die geotechnische Begutachtung in Deutschland verbindlich?</summary><p>Die verbindliche Grundlage ist der Eurocode 7 (DIN EN 1997) mit den nationalen Anhängen. Ergänzend gelten die DIN 1054 für den Erd- und Grundbau, die DIN 4020 für geotechnische Untersuchungen sowie die DIN 18196 für <a data-interlink="1" href="bodenklassifikation/">Bodenklassifikation</a>. Für die Erdbebenbemessung ist der Eurocode 8 (DIN EN 1998) maßgeblich. Alle unsere Berichte werden nach diesen Normen erstellt und von Prüfingenieuren anerkannt.</p></details><details><summary>Wie lange dauert eine typische Baugrunderkundung für ein Wohngebäude in Berlin?</summary><p>Die Dauer hängt von der Größe des Grundstücks und der Anzahl der erforderlichen Bohrpunkte ab. Für ein Einfamilienhaus rechnen Sie mit etwa 2 bis 4 Tagen für die Feldarbeit, gefolgt von 1 bis 2 Wochen für die Laborauswertung und Berichterstellung. Bei komplexeren Projekten mit mehreren Bohrungen oder speziellen Versuchen kann der Zeitrahmen entsprechend länger sein. Wir geben Ihnen gerne einen individuellen Terminplan.</p></details></div></section>
+<section class="block"><div class="container"><h2>Häufige Fragen</h2><details><summary>Wie tief muss in Berlin in der Regel der Baugrund erkundet werden?</summary><p>Die Erkundungstiefe richtet sich nach der geplanten Bauwerkslast und der Baugrundstruktur. In Berlin ist oft eine Tiefe von mindestens 10 bis 15 Metern unter Geländeoberkante erforderlich, um die tragfähigen Sande oder Geschiebemergel zu erreichen. Bei weichen Schichten oder hohen Lasten kann eine tiefere <a href="/erkundung/">Erkundung</a> nötig sein, insbesondere in den Bereichen der Berliner Taschen. Wir empfehlen eine an die örtlichen Gegebenheiten angepasste Bohrstrategie.</p></details><details><summary>Welche Rolle spielt das Grundwasser bei Bauvorhaben in Berlin?</summary><p>Das Grundwasser in Berlin steht meist hoch an, oft nur 2 bis 4 Meter unter Gelände. Dies erfordert bei tieferen Baugruben eine aufwendige Wasserhaltung oder eine Abdichtung der Baugrube. Zudem kann es bei Grundwasserabsenkungen zu Setzungen benachbarter Gebäude kommen. Daher ist eine genaue hydrogeologische Bewertung und gegebenenfalls eine wasserrechtliche Genehmigung erforderlich. Wir berücksichtigen diese Aspekte in unserer Planung.</p></details><details><summary>Welche Normen sind für die geotechnische Begutachtung in Deutschland verbindlich?</summary><p>Die verbindliche Grundlage ist der Eurocode 7 (DIN EN 1997) mit den nationalen Anhängen. Ergänzend gelten die DIN 1054 für den Erd- und Grundbau, die DIN 4020 für geotechnische Untersuchungen sowie die DIN 18196 für <a data-interlink="1" href="bodenklassifikation/">Bodenklassifikation</a>. Für die Erdbebenbemessung ist der Eurocode 8 (DIN EN 1998) maßgeblich. Alle unsere Berichte werden nach diesen Normen erstellt und von Prüfingenieuren anerkannt.</p></details><details><summary>Wie lange dauert eine typische Baugrunderkundung für ein Wohngebäude in Berlin?</summary><p>Die Dauer hängt von der Größe des Grundstücks und der Anzahl der erforderlichen Bohrpunkte ab. Für ein Einfamilienhaus rechnen Sie mit etwa 2 bis 4 Tagen für die Feldarbeit, gefolgt von 1 bis 2 Wochen für die Laborauswertung und Berichterstellung. Bei komplexeren Projekten mit mehreren Bohrungen oder speziellen Versuchen kann der Zeitrahmen entsprechend länger sein. Wir geben Ihnen gerne einen individuellen Terminplan.</p></details></div></section>
 <section class="block map-block" style="padding:3rem 1.5rem">
 <div style="max-width:1200px;margin:0 auto">
 <h2 style="margin-bottom:.8rem;font-weight:700">Standort und Servicegebiet</h2>
